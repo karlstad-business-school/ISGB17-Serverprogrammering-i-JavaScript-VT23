@@ -5,9 +5,8 @@ const fs = require('fs');
 
 //Steg 1
 /************************************************************* */
-
+exports.mySimpleServerStart = function() {
 http.createServer(function (req, res) {
-  
 
   let html;
 
@@ -43,7 +42,7 @@ http.createServer(function (req, res) {
 
   
 }).listen(3002);
-
+}
 /************************************************************* */
 
 //Steg 2
