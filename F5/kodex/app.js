@@ -30,8 +30,6 @@ io.on('connection', (socket)=> {
         io.emit('newcolor', {'red' : r, 'green': g, 'blue': b});
     });
 
-
-
 });
 
 
